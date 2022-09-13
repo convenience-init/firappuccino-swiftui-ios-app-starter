@@ -1,0 +1,13 @@
+
+"WTTitle1" = "Firappuccino App Template";
+"WTDesc11" = "This template provides you with";
+"WTDesc12" = "all the boilerplate code to implement a full featured Firebase-backed SwiftUI App for iOS!";
+"WTTitle2" = "Conveniently use all Firebase Services";
+"WTDesc21" = "Light on syntax";
+"WTDesc22" = "heavy on features.";
+
+"AddTitle" = "Input title";
+"AddTitleDesc" = "Please input a title to register";
+"Cancel" = "Cancel";
+"Add" = "Add";
+
