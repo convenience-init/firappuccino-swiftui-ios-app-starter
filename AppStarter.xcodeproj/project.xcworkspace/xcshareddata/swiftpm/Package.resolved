@@ -60,7 +60,7 @@
       "location" : "https://github.com/convenience-init/firappuccino",
       "state" : {
         "branch" : "v0.1.0-alpha",
-        "revision" : "8e081b9ec051e740add1bb1e31718202a1c798d7"
+        "revision" : "12a3ea4ca2421459efc1e69377a67a4c94d84546"
       }
     },
     {
@@ -95,8 +95,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleUtilities.git",
       "state" : {
-        "revision" : "f4abe56ce62a779e64b525eb133c8fc2a84bbc1f",
-        "version" : "7.7.1"
+        "revision" : "22907832079d808e82f1182b21af58ef3880666f",
+        "version" : "7.8.0"
       }
     },
     {
@@ -122,8 +122,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GTMAppAuth.git",
       "state" : {
-        "revision" : "b9d1683be336ba8c8d1c6867bafeb056a5399700",
-        "version" : "1.3.0"
+        "revision" : "6dee0cde8a1b223737a5159e55e6b4ec16bbbdd9",
+        "version" : "1.3.1"
       }
     },
     {
