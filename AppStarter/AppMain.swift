@@ -14,14 +14,14 @@ class AppDelegate: NSObject, UIApplicationDelegate, MessagingDelegate, UNUserNot
 		/// Configuration
 		let appConfig = Configuration(
 			legacyFPN: true,
-			legacyAPIKey: AppConstants.legacyMessagingAPIKey,
-			imagePath: AppConstants.messagingCustomImagePath,
-			iss: AppConstants.iss,
-			projectName: AppConstants.projectID,
-			privateKey: AppConstants.privateKeyPath,
-			publicKey: AppConstants.publicKeyPath,
-			gcmIdKey: AppConstants.gcmMessageIDKey,
-			clientID: AppConstants.clientID,
+			legacyAPIKey: AppConstants.shared.legacyMessagingServerKey,
+			imagePath: AppConstants.shared.messagingCustomImagePath,
+			iss: AppConstants.shared.iss,
+			projectName: AppConstants.shared.projectID!,
+			privateKey: AppConstants.shared.privateKeyPath,
+			publicKey: AppConstants.shared.publicKeyPath,
+			gcmIdKey: AppConstants.shared.gcmMessageIDKey!,
+			clientID: AppConstants.shared.clientID!,
 			globalOverrideLogLevel: Logger.Level.error
 		)
 		
