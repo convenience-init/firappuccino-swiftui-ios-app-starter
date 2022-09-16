@@ -38,5 +38,7 @@
 	<string>AAAAA000000:0000000000000000000000000000000000000000000</string>
 	<key>DATABASE_URL</key>
 	<string>https://testapp-00000.firebaseio.com</string>
+	<key>DID_WALKTHROUGH_KEY</key>
+	<string>didWalkThrough</string>
 </dict>
 </plist>

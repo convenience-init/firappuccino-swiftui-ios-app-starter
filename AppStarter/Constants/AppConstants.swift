@@ -4,10 +4,7 @@ import Logging
 
 class AppConstants {
 	
-	struct userDefaults {
-		static let didWalkThroughKey = "didWalkThrough"
-	}
-
+	var didFinishWalkThroughKey: String?
 	var clientID: String?
 	var googleAppID: String?
 	var gcmSenderID: String?
@@ -59,6 +56,7 @@ class AppConstants {
 			self.projectID = plistData["PROJECT_ID"] as? String
 			self.iss = plistData["ISS"] as? String
 			self.apiKey = plistData["LEGACY_API_SERVER_KEY"] as? String
+			self.didFinishWalkThroughKey = plistData["DID_WALKTHROUGH_KEY"] as? String
 	
 		}
 		catch let error as NSError {

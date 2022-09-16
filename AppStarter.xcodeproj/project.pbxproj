@@ -32,7 +32,6 @@
 		DC7EAE0E28CFCA9A00BE0C48 /* PostListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7EAE0C28CFCA9A00BE0C48 /* PostListService.swift */; };
 		DC7EAE0F28CFCA9A00BE0C48 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7EAE0D28CFCA9A00BE0C48 /* PostService.swift */; };
 		DC7EAE1328CFCAA900BE0C48 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7EAE1028CFCAA900BE0C48 /* AppError.swift */; };
-		DC7EAE1428CFCAA900BE0C48 /* AnalyticsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7EAE1128CFCAA900BE0C48 /* AnalyticsUtil.swift */; };
 		DC7EAE1528CFCAA900BE0C48 /* NavigationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7EAE1228CFCAA900BE0C48 /* NavigationUtil.swift */; };
 		DC7EAE1F28CFCB2F00BE0C48 /* AuthForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7EAE1C28CFCB2F00BE0C48 /* AuthForm.swift */; };
 		DC7EAE2028CFCB2F00BE0C48 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7EAE1D28CFCB2F00BE0C48 /* AuthView.swift */; };
@@ -85,7 +84,6 @@
 		DC7EAE0C28CFCA9A00BE0C48 /* PostListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListService.swift; sourceTree = "<group>"; };
 		DC7EAE0D28CFCA9A00BE0C48 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		DC7EAE1028CFCAA900BE0C48 /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
-		DC7EAE1128CFCAA900BE0C48 /* AnalyticsUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsUtil.swift; sourceTree = "<group>"; };
 		DC7EAE1228CFCAA900BE0C48 /* NavigationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationUtil.swift; sourceTree = "<group>"; };
 		DC7EAE1C28CFCB2F00BE0C48 /* AuthForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthForm.swift; sourceTree = "<group>"; };
 		DC7EAE1D28CFCB2F00BE0C48 /* AuthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
@@ -203,7 +201,6 @@
 		DC7EADE528CFC8D600BE0C48 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				DC7EAE1128CFCAA900BE0C48 /* AnalyticsUtil.swift */,
 				DC7EAE1028CFCAA900BE0C48 /* AppError.swift */,
 				DC7EAE1228CFCAA900BE0C48 /* NavigationUtil.swift */,
 			);
@@ -465,7 +462,6 @@
 				DC7EAE5028CFEBE000BE0C48 /* AppConstants.swift in Sources */,
 				DC7EAE2028CFCB2F00BE0C48 /* AuthView.swift in Sources */,
 				DC7EAE3B28CFCB5C00BE0C48 /* AppAlertView.swift in Sources */,
-				DC7EAE1428CFCAA900BE0C48 /* AnalyticsUtil.swift in Sources */,
 				DC7EAE0028CFCA2900BE0C48 /* Post.swift in Sources */,
 				DC7EAE0928CFCA8B00BE0C48 /* AuthenticationType.swift in Sources */,
 				DC7EAE3028CFCB4D00BE0C48 /* PageViewController.swift in Sources */,
