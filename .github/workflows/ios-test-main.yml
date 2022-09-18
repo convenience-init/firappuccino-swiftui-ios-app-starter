@@ -1,11 +1,28 @@
-name: iOS main branch workflow
+<<<<<<<< HEAD:.github/workflows/ios-test-main.yml
+name: iOS Main Branch Workflow
+========
+name: iOS v0.1.1 Branch Workflow
+>>>>>>>> 7c6e527 (updates branch .yml):.github/workflows/ios-test-v0_1_1.yml
 
-on:
+n:
   push:
-    branches: [ "main" ]
+    branches:
+<<<<<<<< HEAD:.github/workflows/ios-test-main.yml
+      - "develop"
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - "main" 
+    paths:
+      - ".github/workflows/ios-test-main.yml"
 
+========
+      - "v0.1.1"
+  pull_request:
+    branches:
+      - "v0.1.1" 
+    paths:
+      - ".github/workflows/ios-test-v0_1_1.yml"
+>>>>>>>> 7c6e527 (updates branch .yml):.github/workflows/ios-test-v0_1_1.yml
 jobs:
   build:
     name: Build and Test default scheme using any available iPhone simulator
