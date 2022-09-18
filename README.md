@@ -4,6 +4,8 @@
 
 Current Template Version**: `v0.1.1-alpha`** 
 
+[![iOS main branch workflow](https://github.com/convenience-init/firappuccino-swiftui-ios-app-starter/actions/workflows/ios.yml/badge.svg)](https://github.com/convenience-init/firappuccino-swiftui-ios-app-starter/actions/workflows/ios.yml)
+
 **Table of Contents**
 
 # Hardware
