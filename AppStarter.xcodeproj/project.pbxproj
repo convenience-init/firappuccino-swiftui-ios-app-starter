@@ -685,7 +685,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/convenience-init/firappuccino";
 			requirement = {
-				branch = "v0.1.0-alpha";
+				branch = "v0.1.1-alpha";
 				kind = branch;
 			};
 		};

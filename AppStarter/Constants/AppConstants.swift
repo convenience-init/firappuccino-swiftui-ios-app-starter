@@ -43,8 +43,8 @@ class AppConstants {
 		let plistXML = FileManager.default.contents(atPath: plistPath)!
 		
 		do {
-			plistData = try PropertyListSerialization.propertyList(from: plistXML, options: .mutableContainersAndLeaves, format: &format) as! [String: AnyObject]
-			guard plistData["PROJECT_ID"] as! String != "testapp-00000" else {
+			plistData = try (PropertyListSerialization.propertyList(from: plistXML, options: .mutableContainersAndLeaves, format: &format) as! [String: AnyObject])
+			guard plistData["PROJECT_ID"] as? String != "testapp-00000" else {
 				fatalError("DUMMY PLIST IS STILL PRESENT. YOU MUST ADD THE GOOGLESERVICE PLIST TO THE ROOT OF YOUR APP BEFORE BUILDING!")
 			}
 			
